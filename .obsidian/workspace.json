@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "ffbf7643550a5e5a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b2a3397cafb0556",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "560bd6e6c487fbf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MPT/6.Adroid Security Model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.Adroid Security Model"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "293d87c0fe896c16",
+    "type": "split",
+    "children": [
+      {
+        "id": "f12d6773ad6c6638",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1af192dc9a109b98",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "636aae5be1198421",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "style",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8ef17c1ef5a3b8ce",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "49bcacfdaf1344ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "daa973af09d02e3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9022f2b7d724921d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "WebPt/Server side/10.File Upload Vulnerability.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 10.File Upload Vulnerability"
+            }
+          },
+          {
+            "id": "fe84d48cb573ecbf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b0b70ac21a60aad0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WebPt/CORS(Cross-origin resource sharing).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CORS(Cross-origin resource sharing)"
+            }
+          },
+          {
+            "id": "55495662ce0d1f56",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "5863762544e2e41b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "cfba4d5771fc2184",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "WebPt/CORS(Cross-origin resource sharing).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CORS(Cross-origin resource sharing)"
+            }
+          },
+          {
+            "id": "5c6c5d7af3082d8f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "WebPt/CORS(Cross-origin resource sharing).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CORS(Cross-origin resource sharing)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "remotely-save:Remotely Save": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "560bd6e6c487fbf1",
+  "lastOpenFiles": [
+    "WebPt/Client Side/3.XSS (Cross site scripting).md",
+    "MPT/6.Adroid Security Model.md",
+    "MPT/1.MPT.md",
+    "MPT/Screenshot (46).png",
+    "WebPt/A.Webpt.md",
+    "MPT/2.Introduction to Android & Its Architecture.md",
+    "Untitled.md",
+    "MPT/5.Android Apps & Development.md",
+    "MPT/3.Android Security Features.md",
+    "WebPt/Server side/1.Server Side.md",
+    "WebPt/Server side/11.Web LLM Attacks.md",
+    "WebPt/Server side/10.File Upload Vulnerability.md",
+    "WebPt/Server side/9.SQL Injection.md",
+    "WebPt/Server side/3.OS Command Injection.md",
+    "WebPt/Server side/7.Race Condition.md",
+    "WebPt/Server side/8.JWT.md",
+    "WebPt/Server side/6.SSRF.md",
+    "WebPt/Client Side/1.Client Side.md",
+    "WebPt/Client Side/2.CSRF(Client side request Forgery).md",
+    "WebPt/Server side/10.File Upload Vulnerabilities.md",
+    "9.SQL Injection with lab.pdf",
+    "9.SQL Injection.pdf",
+    "WebPt/Server side/5.Broken Access Control.md",
+    "WebPt/Server side/4.Information disclosure.md",
+    "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
+    "MPT/4. APK Structure.md",
+    "MPT/Welcome.md",
+    "MPT",
+    "WebPt/Client Side/6.Clickjacking.md",
+    "Untitled.base",
+    "WebPt/Server side/Screenshot (42).png",
+    "WebPt/Client Side/Screenshot (40).png",
+    "WebPt/Client Side",
+    "WebPt/Server side",
+    "Untitled.canvas",
+    "WebPt/Server Side",
+    "Screenshot (38).png",
+    "WebPt/Client Side",
+    "Webpt",
+    "Client Side/Untitled.base"
+  ]
+}
