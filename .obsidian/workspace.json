@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -209,7 +208,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "636aae5be1198421",
+  "active": "1af192dc9a109b98",
   "lastOpenFiles": [
     "MPT/6.Adroid Security Model.md",
     "WebPt/Client Side/6.Clickjacking.md",
