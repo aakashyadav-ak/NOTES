@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "style",
+                "query": "\"Configuration Options\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -208,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "560bd6e6c487fbf1",
+  "active": "636aae5be1198421",
   "lastOpenFiles": [
     "MPT/6.Adroid Security Model.md",
     "WebPt/Client Side/6.Clickjacking.md",
