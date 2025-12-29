@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
+                "file": "WebPt/Server side/10.File Upload Vulnerability.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.Path Traversal or Directory Traversal"
+              "title": "10.File Upload Vulnerability"
             }
           }
         ]
@@ -210,6 +210,9 @@
   },
   "active": "560bd6e6c487fbf1",
   "lastOpenFiles": [
+    "WebPt/Server side/4.Information disclosure.md",
+    "WebPt/Server side/3.OS Command Injection.md",
+    "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
     "WebPt/Server side/1.Server Side.md",
     "MPT/Screenshot (46).png",
     "MPT/Screenshot (45).png",
@@ -220,7 +223,6 @@
     "WebPt/Client Side/Screenshot (40).png",
     "WhatsApp Image 2025-12-27 at 8.39.24 PM.jpeg",
     "Pasted image 20251227204008.png",
-    "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
     "MPT/5.Android Apps & Development.md",
     "MPT/4. APK Structure.md",
     "MPT/3.Android Security Features.md",
@@ -232,7 +234,6 @@
     "WebPt/Server side/11.Web LLM Attacks.md",
     "WebPt/Server side/10.File Upload Vulnerability.md",
     "WebPt/Server side/9.SQL Injection.md",
-    "WebPt/Server side/3.OS Command Injection.md",
     "WebPt/Server side/7.Race Condition.md",
     "WebPt/Server side/8.JWT.md",
     "WebPt/Server side/6.SSRF.md",
@@ -242,7 +243,6 @@
     "9.SQL Injection with lab.pdf",
     "9.SQL Injection.pdf",
     "WebPt/Server side/5.Broken Access Control.md",
-    "WebPt/Server side/4.Information disclosure.md",
     "MPT",
     "Untitled.base",
     "WebPt/Server side/Screenshot (42).png",
