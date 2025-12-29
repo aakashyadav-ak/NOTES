@@ -22,3 +22,17 @@ Step 2: system() receives value → system("whoami")
 Step 3: Server executes command → Runs 'whoami' on OS
 Step 4: Output returned to browser → "www-data"
 ```
+
+```
+Attacker                              Target Server
+    │                                      │
+    │  shell.php?cmd=whoami                │
+    │─────────────────────────────────────►│
+    │                                      │
+    │                               PHP extracts cmd
+    │                               system("whoami")
+    │                               OS executes command
+    │                                      │
+    │  Response: www-data                  │
+    │◄─────────────────────────────────────│
+```
