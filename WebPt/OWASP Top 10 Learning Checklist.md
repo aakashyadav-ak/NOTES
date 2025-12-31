@@ -1,22 +1,42 @@
-## OWASP Top 10 Learning Checklist
+# OWASP Top 10 (2025) Learning Checklist
 
-### A01:2021 - Broken Access Control
+## A01:2025 - Broken Access Control
 - [x] Path Traversal
 - [x] IDOR
-- [x] CORS Misconfiguration
 - [x] CSRF
 - [x] URL Redirection
 - [x] File Inclusion (LFI/RFI)
 - [ ] Forced Browsing (practice more)
+- [ ] Privilege Escalation
+- [ ] Missing Function Level Access Control
 
-### A02:2021 - Cryptographic Failures
+## A02:2025 - Security Misconfiguration
+- [x] Information Disclosure
+- [x] Host Header Attacks
+- [x] CORS Misconfiguration
+- [ ] Default Credentials
+- [ ] Directory Listing
+- [ ] Unnecessary Features Enabled
+- [ ] Error Handling Misconfiguration
+
+## A03:2025 - Software Supply Chain Failures
+- [ ] CVE Exploitation
+- [ ] Outdated Libraries
+- [ ] Dependency Confusion
+- [ ] Malicious Packages
+- [ ] Compromised Build Pipelines
+- [ ] Unsigned Components
+
+## A04:2025 - Cryptographic Failures
 - [x] JWT Attacks (partial)
 - [ ] Weak Encryption
 - [ ] Sensitive Data Exposure
 - [ ] TLS/SSL Vulnerabilities
 - [ ] Hardcoded Credentials
+- [ ] Weak Hashing Algorithms
+- [ ] Improper Key Management
 
-### A03:2021 - Injection
+## A05:2025 - Injection
 - [x] SQL Injection
 - [x] OS Command Injection
 - [x] XSS (DOM, Reflected, Stored)
@@ -25,48 +45,67 @@
 - [ ] NoSQL Injection
 - [ ] SSTI (Server-Side Template Injection)
 - [ ] LDAP Injection
+- [ ] Header Injection
 
-### A04:2021 - Insecure Design
+## A06:2025 - Insecure Design
 - [x] File Upload Vulnerabilities
 - [x] Race Conditions
 - [x] Clickjacking
 - [ ] Business Logic Flaws (practice more)
+- [ ] Missing Rate Limiting
+- [ ] Improper Input Validation
 
-### A05:2021 - Security Misconfiguration
-- [x] Information Disclosure
-- [x] Host Header Attacks
-- [x] CORS Misconfiguration
-- [ ] Default Credentials
-- [ ] Directory Listing
-
-### A06:2021 - Vulnerable Components
-- [ ] CVE Exploitation
-- [ ] Outdated Libraries
-- [ ] Dependency Confusion
-
-### A07:2021 - Auth Failures
+## A07:2025 - Authentication Failures
 - [x] JWT Attacks
 - [ ] Session Hijacking
 - [ ] Session Fixation
 - [ ] Brute Force (advanced)
 - [ ] 2FA Bypass
 - [ ] Credential Stuffing
+- [ ] Weak Password Policy
+- [ ] Insecure Password Recovery
 
-### A08:2021 - Integrity Failures
+## A08:2025 - Software or Data Integrity Failures
 - [ ] Insecure Deserialization
 - [ ] Unsigned Updates
 - [ ] CI/CD Pipeline Attacks
+- [ ] Code Tampering
+- [ ] Data Manipulation
 
-### A09:2021 - Logging Failures
+## A09:2025 - Security Logging and Alerting Failures
 - [ ] Log Injection
 - [ ] Insufficient Logging
+- [ ] Missing Security Alerts
+- [ ] Log Tampering
+- [ ] Inadequate Monitoring
 
-### A10:2021 - SSRF
-- [x] Basic SSRF
-- [x] Blind SSRF
-- [x] SSRF to RCE
-- [x] Cloud Metadata Access
+## A10:2025 - Mishandling of Exceptional Conditions
+- [ ] Improper Error Handling
+- [ ] Unhandled Exceptions
+- [ ] Information Leakage via Errors
+- [ ] Denial of Service via Exceptions
+- [ ] Race Condition Errors
 
-### Additional Vulnerabilities Covered
+---
+
+## Additional Vulnerabilities Covered
+- [x] SSRF (Basic, Blind, to RCE, Cloud Metadata)
 - [x] WebSocket Vulnerabilities
 - [x] Web LLM Attacks
+
+---
+
+## Progress Summary
+
+| Category                        | Status         |
+| ------------------------------- | -------------- |
+| A01 - Broken Access Control     | 🟡 In Progress |
+| A02 - Security Misconfiguration | 🟡 In Progress |
+| A03 - Supply Chain Failures     | 🔴 Not Started |
+| A04 - Cryptographic Failures    | 🟡 In Progress |
+| A05 - Injection                 | 🟢 Almost Done |
+| A06 - Insecure Design           | 🟡 In Progress |
+| A07 - Authentication Failures   | 🟡 In Progress |
+| A08 - Integrity Failures        | 🔴 Not Started |
+| A09 - Logging Failures          | 🔴 Not Started |
+| A10 - Exceptional Conditions    | 🔴 Not Started |
