@@ -6,6 +6,7 @@
 - [x] CSRF
 - [x] URL Redirection
 - [x] File Inclusion (LFI/RFI)
+- [x] WebSocket Vulnerabilities
 - [ ] Forced Browsing (practice more)
 - [ ] Privilege Escalation
 - [ ] Missing Function Level Access Control
@@ -42,6 +43,8 @@
 - [x] XSS (DOM, Reflected, Stored)
 - [x] XXE
 - [x] LFI/RFI
+- [x] SSRF (Basic, Blind, to RCE, Cloud Metadata)
+- [x] Web LLM Attacks (Prompt Injection)
 - [ ] NoSQL Injection
 - [ ] SSTI (Server-Side Template Injection)
 - [ ] LDAP Injection
@@ -88,24 +91,17 @@
 
 ---
 
-## Additional Vulnerabilities Covered
-- [x] SSRF (Basic, Blind, to RCE, Cloud Metadata)
-- [x] WebSocket Vulnerabilities
-- [x] Web LLM Attacks
-
----
-
 ## Progress Summary
 
-| Category                        | Status         |
-| ------------------------------- | -------------- |
-| A01 - Broken Access Control     | 🟡 In Progress |
+| Category | Status |
+|----------|--------|
+| A01 - Broken Access Control | 🟡 In Progress |
 | A02 - Security Misconfiguration | 🟡 In Progress |
-| A03 - Supply Chain Failures     | 🔴 Not Started |
-| A04 - Cryptographic Failures    | 🟡 In Progress |
-| A05 - Injection                 | 🟢 Almost Done |
-| A06 - Insecure Design           | 🟡 In Progress |
-| A07 - Authentication Failures   | 🟡 In Progress |
-| A08 - Integrity Failures        | 🔴 Not Started |
-| A09 - Logging Failures          | 🔴 Not Started |
-| A10 - Exceptional Conditions    | 🔴 Not Started |
+| A03 - Supply Chain Failures | 🔴 Not Started |
+| A04 - Cryptographic Failures | 🟡 In Progress |
+| A05 - Injection | 🟢 Almost Done |
+| A06 - Insecure Design | 🟡 In Progress |
+| A07 - Authentication Failures | 🟡 In Progress |
+| A08 - Integrity Failures | 🔴 Not Started |
+| A09 - Logging Failures | 🔴 Not Started |
+| A10 - Exceptional Conditions | 🔴 Not Started |
