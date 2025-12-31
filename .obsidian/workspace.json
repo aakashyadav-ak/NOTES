@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
+                "file": "WebPt/OWASP Top 10 Learning Checklist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.Path Traversal or Directory Traversal"
+              "title": "OWASP Top 10 Learning Checklist"
             }
           }
         ]
@@ -210,10 +210,10 @@
   },
   "active": "560bd6e6c487fbf1",
   "lastOpenFiles": [
+    "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
     "WebPt/Server side/5.Broken Access Control.md",
     "WebPt/OWASP Top 10 Learning Checklist.md",
     "WebPt/Server side/3.OS Command Injection.md",
-    "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
     "WebPt/Server side/10.File Upload Vulnerability.md",
     "WebPt/PHP Web Shell.md",
     "WebPt/Webpt.md",

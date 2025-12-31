@@ -90,18 +90,3 @@
 - [ ] Race Condition Errors
 
 ---
-
-## Progress Summary
-
-| Category | Status |
-|----------|--------|
-| A01 - Broken Access Control | 🟡 In Progress |
-| A02 - Security Misconfiguration | 🟡 In Progress |
-| A03 - Supply Chain Failures | 🔴 Not Started |
-| A04 - Cryptographic Failures | 🟡 In Progress |
-| A05 - Injection | 🟢 Almost Done |
-| A06 - Insecure Design | 🟡 In Progress |
-| A07 - Authentication Failures | 🟡 In Progress |
-| A08 - Integrity Failures | 🔴 Not Started |
-| A09 - Logging Failures | 🔴 Not Started |
-| A10 - Exceptional Conditions | 🔴 Not Started |
