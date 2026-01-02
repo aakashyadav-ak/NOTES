@@ -7,7 +7,7 @@
 - [x] URL Redirection
 - [x] File Inclusion (LFI/RFI)
 - [x] WebSocket Vulnerabilities
-- [ ] Forced Browsing (practice more)
+- [ ] Forced Browsing 
 - [ ] Privilege Escalation
 - [ ] Missing Function Level Access Control
 
