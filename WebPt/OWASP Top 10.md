@@ -1,4 +1,4 @@
-# OWASP Top 10 (2025) Learning Checklist
+# OWASP Top 10 (2025) 
 
 ## A01:2025 - Broken Access Control
 - [x] Path Traversal
