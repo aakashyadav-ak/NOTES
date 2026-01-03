@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/OWASP Top 10.md",
+                "file": "WebPt/Client Side/3.XSS (Cross site scripting).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OWASP Top 10"
+              "title": "3.XSS (Cross site scripting)"
             }
           }
         ]
@@ -210,8 +210,9 @@
   },
   "active": "560bd6e6c487fbf1",
   "lastOpenFiles": [
-    "MPT/6.Adroid Security Model(L5).md",
+    "WebPt/Server side/6.SSRF.md",
     "WebPt/OWASP Top 10.md",
+    "MPT/6.Adroid Security Model(L5).md",
     "WebPt/Client Side/3.XSS (Cross site scripting).md",
     "WebPt/Client Side/2.CSRF(Client side request Forgery).md",
     "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
@@ -241,7 +242,6 @@
     "WebPt/Server side/9.SQL Injection.md",
     "WebPt/Server side/7.Race Condition.md",
     "WebPt/Server side/8.JWT.md",
-    "WebPt/Server side/6.SSRF.md",
     "9.SQL Injection with lab.pdf",
     "9.SQL Injection.pdf",
     "MPT",
