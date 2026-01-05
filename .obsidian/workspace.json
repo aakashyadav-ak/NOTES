@@ -188,13 +188,23 @@
               "icon": "links-going-out",
               "title": "Outgoing links from CORS(Cross-origin resource sharing)"
             }
+          },
+          {
+            "id": "4af5e9adb615d870",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
