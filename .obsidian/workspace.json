@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPT/8.Data Storage (Insecure Data Storage.OWASP TOP 10.M2).md",
+                "file": "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8.Data Storage (Insecure Data Storage.OWASP TOP 10.M2)"
+              "title": "8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M2)"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MPT/8.Data Storage (Insecure Data Storage.OWASP TOP 10.M2).md",
+                "file": "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 8.Data Storage (Insecure Data Storage.OWASP TOP 10.M2)"
+              "title": "Backlinks for 8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M2)"
             }
           },
           {
@@ -221,7 +221,7 @@
   "active": "caf7c7107369ea64",
   "lastOpenFiles": [
     "MPT/7. Android App Structure & Analysis.md",
-    "MPT/8.Data Storage (Insecure Data Storage.OWASP TOP 10.M2).md",
+    "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M2).md",
     "MPT/6.Adroid Security Model(L5).md",
     "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
     "WebPt/Server side/1.Server Side.md",
