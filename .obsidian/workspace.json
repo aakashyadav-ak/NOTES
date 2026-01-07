@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPT/7.ANDROID APP ANALYSIS.md",
+                "file": "MPT/7.Partion structure of Android.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7.ANDROID APP ANALYSIS"
+              "title": "7.Partion structure of Android"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MPT/7.ANDROID APP ANALYSIS.md",
+                "file": "MPT/7.Partion structure of Android.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 7.ANDROID APP ANALYSIS"
+              "title": "Backlinks for 7.Partion structure of Android"
             }
           },
           {
@@ -221,7 +221,7 @@
   "active": "caf7c7107369ea64",
   "lastOpenFiles": [
     "MPT/6.Adroid Security Model(L5).md",
-    "MPT/7.ANDROID APP ANALYSIS.md",
+    "MPT/7.Partion structure of Android.md",
     "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
     "WebPt/Server side/1.Server Side.md",
     "WebPt/Server side/14.API Testing.md",
