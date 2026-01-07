@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPT/7. Android App Structure & Analysis.md",
+                "file": "MPT/8.Data Storage labs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. Android App Structure & Analysis"
+              "title": "8.Data Storage labs"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MPT/7. Android App Structure & Analysis.md",
+                "file": "MPT/8.Data Storage labs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 7. Android App Structure & Analysis"
+              "title": "Backlinks for 8.Data Storage labs"
             }
           },
           {
@@ -220,8 +220,9 @@
   },
   "active": "caf7c7107369ea64",
   "lastOpenFiles": [
-    "MPT/6.Adroid Security Model(L5).md",
     "MPT/7. Android App Structure & Analysis.md",
+    "MPT/8.Data Storage labs.md",
+    "MPT/6.Adroid Security Model(L5).md",
     "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
     "WebPt/Server side/1.Server Side.md",
     "WebPt/Server side/14.API Testing.md",
@@ -245,7 +246,6 @@
     "WebPt/Server side/10.File Upload Vulnerability.md",
     "WebPt/OWASP Top 10.md",
     "MPT/3.Android Security Features.md",
-    "MPT/OWASP MOBILE TOP 10 (2024).md",
     "MPT/mptnote.jpeg",
     "MPT/Screenshot (46).png",
     "MPT/Screenshot (45).png",
