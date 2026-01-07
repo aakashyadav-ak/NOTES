@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VAPT  CHECKLIST.md",
+                "file": "WebPt/Server side/11.Web LLM Attacks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VAPT  CHECKLIST"
+              "title": "11.Web LLM Attacks"
             }
           }
         ]
@@ -220,24 +220,24 @@
   },
   "active": "caf7c7107369ea64",
   "lastOpenFiles": [
-    "WebPt/Server side/9.SQL Injection.md",
-    "VAPT  CHECKLIST.md",
     "WebPt/Server side/8.JWT.md",
+    "WebPt/Server side/9.SQL Injection.md",
+    "WebPt/Server side/11.Web LLM Attacks.md",
     "WebPt/Server side/7.Race Condition.md",
     "WebPt/Server side/6.SSRF.md",
     "WebPt/Server side/5.Broken Access Control.md",
     "WebPt/Server side/4.Information disclosure.md",
     "WebPt/Server side/3.OS Command Injection.md",
     "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
+    "WebPt/Client Side/2.CSRF(Client side request Forgery).md",
+    "VAPT  CHECKLIST.md",
     "WebPt/Client Side/6.Clickjacking.md",
     "WebPt/Client Side/5.Web socket.md",
     "WebPt/Client Side/4.CORS(Cross-origin resource sharing).md",
     "WebPt/Client Side/3.XSS (Cross site scripting).md",
-    "WebPt/Client Side/2.CSRF(Client side request Forgery).md",
     "WebPt/Client Side/1.Client Side.md",
     "WebPt/Server side/1.Server Side.md",
     "WebPt/Server side/10.File Upload Vulnerability.md",
-    "WebPt/Server side/11.Web LLM Attacks.md",
     "WebPt/OWASP Top 10.md",
     "MPT/3.Android Security Features.md",
     "MPT/OWASP MOBILE TOP 10 (2024).md",
