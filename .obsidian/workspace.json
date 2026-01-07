@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
+                "file": "MPT/7.Partion Structure of Android.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.Path Traversal or Directory Traversal"
-            }
-          },
-          {
-            "id": "1c1cfedbdde72ed2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.Path Traversal or Directory Traversal"
+              "title": "7.Partion Structure of Android"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
+                "file": "MPT/7.Partion Structure of Android.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2.Path Traversal or Directory Traversal"
+              "title": "Backlinks for 7.Partion Structure of Android"
             }
           },
           {
@@ -218,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,8 +218,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c1cfedbdde72ed2",
+  "active": "caf7c7107369ea64",
   "lastOpenFiles": [
+    "MPT/6.Adroid Security Model(L5).md",
+    "MPT/7.Partion Structure of Android.md",
     "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
     "WebPt/Server side/1.Server Side.md",
     "WebPt/Server side/14.API Testing.md",
@@ -258,8 +246,6 @@
     "WebPt/OWASP Top 10.md",
     "MPT/3.Android Security Features.md",
     "MPT/OWASP MOBILE TOP 10 (2024).md",
-    "MPT/6.Adroid Security Model(L5).md",
-    "MPT/5.Android Apps & Development.md",
     "MPT/mptnote.jpeg",
     "MPT/Screenshot (46).png",
     "MPT/Screenshot (45).png",
