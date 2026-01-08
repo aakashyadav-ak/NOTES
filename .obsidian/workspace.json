@@ -11,14 +11,10 @@
             "id": "caf7c7107369ea64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MPT/9.Manifest File.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "9.Manifest File"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -203,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,8 +216,9 @@
   },
   "active": "caf7c7107369ea64",
   "lastOpenFiles": [
-    "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
+    "MPT/Untitled.md",
     "MPT/9.Manifest File.md",
+    "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
     "MPT/4. APK Structure.md",
     "MPT/7. Android App Structure & Analysis.md",
     "MPT/6.Adroid Security Model(L5).md",
@@ -244,7 +242,6 @@
     "WebPt/Client Side/4.CORS(Cross-origin resource sharing).md",
     "WebPt/Client Side/3.XSS (Cross site scripting).md",
     "WebPt/Client Side/1.Client Side.md",
-    "WebPt/Server side/10.File Upload Vulnerability.md",
     "MPT/mptnote.jpeg",
     "MPT/Screenshot (46).png",
     "MPT/Screenshot (45).png",
