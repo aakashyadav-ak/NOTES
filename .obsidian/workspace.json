@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
+                "file": "MPT/9.Manifest File.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9)"
+              "title": "9.Manifest File"
             }
           }
         ]
@@ -219,9 +219,10 @@
   },
   "active": "caf7c7107369ea64",
   "lastOpenFiles": [
+    "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
+    "MPT/9.Manifest File.md",
     "MPT/4. APK Structure.md",
     "MPT/7. Android App Structure & Analysis.md",
-    "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
     "MPT/6.Adroid Security Model(L5).md",
     "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
     "WebPt/Server side/1.Server Side.md",
@@ -244,7 +245,6 @@
     "WebPt/Client Side/3.XSS (Cross site scripting).md",
     "WebPt/Client Side/1.Client Side.md",
     "WebPt/Server side/10.File Upload Vulnerability.md",
-    "WebPt/OWASP Top 10.md",
     "MPT/mptnote.jpeg",
     "MPT/Screenshot (46).png",
     "MPT/Screenshot (45).png",
