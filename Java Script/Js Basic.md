@@ -26,3 +26,17 @@ age = 26;  // ✅ Can reassign
 const PI = 3.14159;
 PI = 3;    // ❌ Error! Cannot reassign
 ```
+
+#### Naming Rules
+```js
+// ✅ Valid names
+let userName = "John";      // camelCase (recommended)
+let user_name = "John";     // snake_case
+let _private = "secret";    // can start with _
+let $element = "div";       // can start with $
+
+// ❌ Invalid names
+let 123abc = "error";       // cannot start with number
+let my-name = "error";      // no hyphens
+let let = "error";          // cannot use reserved words
+```
