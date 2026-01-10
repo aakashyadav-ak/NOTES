@@ -217,8 +217,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4af5e9adb615d870",
+  "active": "5f0abccb39bba0c3",
   "lastOpenFiles": [
+    "MPT/1.MPT.md",
+    "MPT/9.Manifest File.md",
     "MPT/10.Intent.md",
     "Java Script/Js Basic.md",
     "Java Script",
@@ -237,7 +239,6 @@
     "WebPt/Server side/10.File Upload Vulnerability.md",
     "WebPt/Server side/11.Web LLM Attacks.md",
     "WebPt/Server side/14.API Testing.md",
-    "MPT/9.Manifest File.md",
     "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
     "MPT/4. APK Structure.md",
     "MPT/7. Android App Structure & Analysis.md",
@@ -247,7 +248,6 @@
     "WebPt/Server side/13.Bussiness Logics.md",
     "WebPt/Server side/12.Web Socket.md",
     "WebPt/Server side/5.Broken Access Control.md",
-    "WebPt/Server side/4.Information disclosure.md",
     "MPT/mptnote.jpeg",
     "MPT/Screenshot (46).png",
     "MPT/Screenshot (45).png",
