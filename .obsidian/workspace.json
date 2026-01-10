@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPT/OWASP MOBILE TOP 10 (2024).md",
+                "file": "MPT/10. Intent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OWASP MOBILE TOP 10 (2024)"
+              "title": "10. Intent"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "intent filt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -220,6 +219,7 @@
   },
   "active": "5f0abccb39bba0c3",
   "lastOpenFiles": [
+    "MPT/OWASP MOBILE TOP 10 (2024).md",
     "MPT/9.Manifest File.md",
     "MPT/7. Android App Structure & Analysis.md",
     "MPT/4. APK Structure.md",
