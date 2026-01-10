@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java Script/Js Basic.md",
+                "file": "MPT/10.Intent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Js Basic"
+              "title": "10.Intent"
             }
           }
         ]
@@ -203,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5,
-    "collapsed": true
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,8 +217,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5f0abccb39bba0c3",
+  "active": "4af5e9adb615d870",
   "lastOpenFiles": [
+    "MPT/10.Intent.md",
     "Java Script/Js Basic.md",
     "Java Script",
     "Untitled.base",
@@ -237,7 +237,6 @@
     "WebPt/Server side/10.File Upload Vulnerability.md",
     "WebPt/Server side/11.Web LLM Attacks.md",
     "WebPt/Server side/14.API Testing.md",
-    "MPT/10.Intent.md",
     "MPT/9.Manifest File.md",
     "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
     "MPT/4. APK Structure.md",
