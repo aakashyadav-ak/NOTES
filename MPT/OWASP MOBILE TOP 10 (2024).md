@@ -236,14 +236,14 @@
 - [ ] MODE_WORLD_WRITEABLE Files
 
 ### Database Storage
-- [ ] Unencrypted SQLite Database
-- [ ] Sensitive Data in SQLite
+- [x] Unencrypted SQLite Database
+- [x] Sensitive Data in SQLite
 - [ ] Realm Database Unencrypted
 - [ ] Couchbase Lite Unencrypted
 - [ ] Firebase Local Cache Exposure
 
 ### File Storage
-- [ ] Sensitive Data in External Storage
+- [x] Sensitive Data in External Storage
 - [ ] Sensitive Data in Cache Files
 - [ ] Sensitive Data in Temp Files
 - [ ] Log Files Contain Sensitive Data
