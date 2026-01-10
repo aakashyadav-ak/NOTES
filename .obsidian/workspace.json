@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPT/10. xyz.md",
+                "file": "Java Script/Js Basic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10. xyz"
+              "title": "Js Basic"
             }
           }
         ]
@@ -219,8 +219,8 @@
   },
   "active": "5f0abccb39bba0c3",
   "lastOpenFiles": [
-    "MPT/10.Intent.md",
     "MPT/10. xyz.md",
+    "MPT/10.Intent.md",
     "MPT/1.MPT.md",
     "MPT/9.Manifest File.md",
     "Java Script/Js Basic.md",
