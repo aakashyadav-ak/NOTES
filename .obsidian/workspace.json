@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/Server side/11.Web LLM Attacks.md",
+                "file": "MPT/10. Intent & WebView.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11.Web LLM Attacks"
+              "title": "10. Intent & WebView"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "49bcacfdaf1344ae",
@@ -220,17 +219,17 @@
   },
   "active": "5f0abccb39bba0c3",
   "lastOpenFiles": [
-    "WebPt/Server side/9.SQL Injection.md",
-    "MPT/10. Intent.md",
-    "WebPt/Server side/10.File Upload Vulnerability.md",
+    "MPT/1.MPT.md",
+    "MPT/10. Intent & WebView.md",
     "WebPt/Server side/11.Web LLM Attacks.md",
+    "WebPt/Server side/9.SQL Injection.md",
+    "WebPt/Server side/10.File Upload Vulnerability.md",
     "WebPt/Server side/14.API Testing.md",
     "WebPt/Server side/13.Bussiness Logics.md",
     "WebPt/Server side/12.Web Socket.md",
     "MPT/Screenshot (46).png",
     "MPT/Screenshot (45).png",
     "MPT/mptnote.jpeg",
-    "MPT/1.MPT.md",
     "MPT/9.Manifest File.md",
     "MPT/2.Introduction to Android & Its Architecture.md",
     "MPT/3.Android Security Features.md",
