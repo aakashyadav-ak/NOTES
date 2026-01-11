@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/Server side/10.File Upload Vulnerability.md",
+                "file": "MPT/10. Intent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.File Upload Vulnerability"
+              "title": "10. Intent"
             }
           }
         ]
@@ -219,6 +219,7 @@
   },
   "active": "5f0abccb39bba0c3",
   "lastOpenFiles": [
+    "WebPt/Server side/10.File Upload Vulnerability.md",
     "WebPt/Server side/11.Web LLM Attacks.md",
     "WebPt/Server side/14.API Testing.md",
     "WebPt/Server side/13.Bussiness Logics.md",
@@ -250,7 +251,6 @@
     "WebPt/Server side/7.Race Condition.md",
     "WebPt/Server side/8.JWT.md",
     "WebPt/Server side/9.SQL Injection.md",
-    "WebPt/Server side/10.File Upload Vulnerability.md",
     "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
     "WebPt/Client Side/Screenshot (40).png",
     "WhatsApp Image 2025-12-27 at 8.39.24 PM.jpeg",
