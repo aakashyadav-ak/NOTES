@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPT/10. Intent.md",
+                "file": "WebPt/Server side/10.File Upload Vulnerability.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10. Intent"
+              "title": "10.File Upload Vulnerability"
             }
           }
         ]
@@ -219,16 +219,24 @@
   },
   "active": "5f0abccb39bba0c3",
   "lastOpenFiles": [
-    "MPT/OWASP MOBILE TOP 10 (2024).md",
+    "WebPt/Server side/11.Web LLM Attacks.md",
+    "WebPt/Server side/14.API Testing.md",
+    "WebPt/Server side/13.Bussiness Logics.md",
+    "WebPt/Server side/12.Web Socket.md",
+    "MPT/Screenshot (46).png",
+    "MPT/Screenshot (45).png",
+    "MPT/mptnote.jpeg",
+    "MPT/1.MPT.md",
+    "MPT/10. Intent.md",
     "MPT/9.Manifest File.md",
+    "MPT/2.Introduction to Android & Its Architecture.md",
+    "MPT/3.Android Security Features.md",
+    "Java Script/Js Basic.md",
+    "MPT/OWASP MOBILE TOP 10 (2024).md",
     "MPT/7. Android App Structure & Analysis.md",
     "MPT/4. APK Structure.md",
-    "MPT/10. Intent.md",
     "9.SQL Injection with lab.pdf",
-    "MPT/1.MPT.md",
     "MPT/10.Intent.md",
-    "MPT/mptnote.jpeg",
-    "Java Script/Js Basic.md",
     "Java Script",
     "Untitled.base",
     "WebPt/Client Side/5.Web socket.md",
@@ -243,15 +251,7 @@
     "WebPt/Server side/8.JWT.md",
     "WebPt/Server side/9.SQL Injection.md",
     "WebPt/Server side/10.File Upload Vulnerability.md",
-    "WebPt/Server side/11.Web LLM Attacks.md",
-    "WebPt/Server side/14.API Testing.md",
     "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
-    "MPT/6.Adroid Security Model(L5).md",
-    "WebPt/Server side/2.Path Traversal or Directory Traversal.md",
-    "WebPt/Server side/1.Server Side.md",
-    "WebPt/Server side/13.Bussiness Logics.md",
-    "MPT/Screenshot (46).png",
-    "MPT/Screenshot (45).png",
     "WebPt/Client Side/Screenshot (40).png",
     "WhatsApp Image 2025-12-27 at 8.39.24 PM.jpeg",
     "Pasted image 20251227204008.png",
