@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPT/10. Intent & WebView.md",
+                "file": "MPT/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10. Intent & WebView"
+              "title": "Untitled"
             }
           }
         ]
@@ -219,8 +219,10 @@
   },
   "active": "5f0abccb39bba0c3",
   "lastOpenFiles": [
-    "MPT/1.MPT.md",
+    "MPT/OWASP MOBILE TOP 10 (2024).md",
+    "MPT/Untitled.md",
     "MPT/10. Intent & WebView.md",
+    "MPT/1.MPT.md",
     "WebPt/Server side/11.Web LLM Attacks.md",
     "WebPt/Server side/9.SQL Injection.md",
     "WebPt/Server side/10.File Upload Vulnerability.md",
@@ -234,7 +236,6 @@
     "MPT/2.Introduction to Android & Its Architecture.md",
     "MPT/3.Android Security Features.md",
     "Java Script/Js Basic.md",
-    "MPT/OWASP MOBILE TOP 10 (2024).md",
     "MPT/7. Android App Structure & Analysis.md",
     "MPT/4. APK Structure.md",
     "9.SQL Injection with lab.pdf",
@@ -251,7 +252,6 @@
     "WebPt/Server side/6.SSRF.md",
     "WebPt/Server side/7.Race Condition.md",
     "WebPt/Server side/8.JWT.md",
-    "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
     "WebPt/Client Side/Screenshot (40).png",
     "WhatsApp Image 2025-12-27 at 8.39.24 PM.jpeg",
     "Pasted image 20251227204008.png",
