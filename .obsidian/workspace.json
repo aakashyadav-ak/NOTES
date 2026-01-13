@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPT/11.Android Partiton.md",
+                "file": "WebPt/Client Side/4.CORS(Cross-origin resource sharing).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11.Android Partiton"
+              "title": "4.CORS(Cross-origin resource sharing)"
             }
           }
         ],
@@ -232,10 +232,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1af192dc9a109b98",
+  "active": "41e6b89820cbe93c",
   "lastOpenFiles": [
-    "MPT/11.Android Partiton.md",
+    "WebPt/Client Side/2.CSRF(Client side request Forgery).md",
     "xyz.md",
+    "MPT/11.Android Partiton.md",
     "MPT/OWASP MOBILE TOP 10 (2024).md",
     "MPT/10. Intent & WebView.md",
     "MPT/1.MPT.md",
@@ -262,7 +263,6 @@
     "Untitled.canvas",
     "WebPt/Client Side/4.CORS(Cross-origin resource sharing).md",
     "WebPt/Client Side/3.XSS (Cross site scripting).md",
-    "WebPt/Client Side/2.CSRF(Client side request Forgery).md",
     "WebPt/Client Side/1.Client Side.md",
     "WebPt/Client Side/6.Clickjacking.md",
     "WebPt/Server side/6.SSRF.md",
