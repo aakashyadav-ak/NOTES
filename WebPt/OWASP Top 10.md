@@ -3,7 +3,6 @@
 ## A01:2025 - Broken Access Control
 - [x] Path Traversal
 - [x] IDOR
-- [x] CSRF
 - [x] URL Redirection
 - [x] File Inclusion (LFI/RFI)
 - [x] WebSocket Vulnerabilities
