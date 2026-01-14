@@ -39,12 +39,14 @@
             "id": "ca7168f07f05ca27",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.4"
+                "file": "WebPt/Server side/5.Broken Access Control.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
+              "icon": "lucide-file",
+              "title": "5.Broken Access Control"
             }
           }
         ],
