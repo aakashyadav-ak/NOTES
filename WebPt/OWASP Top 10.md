@@ -1,14 +1,16 @@
 # OWASP Top 10 (2025) 
 
 ## A01:2025 - Broken Access Control
-- [x] Path Traversal
-- [x] IDOR
-- [x] URL Redirection
-- [x] File Inclusion (LFI/RFI)
-- [x] WebSocket Vulnerabilities
-- [x] Forced Browsing 
-- [x] Privilege Escalation
-- [x] Missing Function Level Access Control
+TYPES:                              OUTCOMES:
+  ☑ IDOR                              ☑ Horizontal Privilege Escalation
+  ☑ Forced Browsing                   ☑ Vertical Privilege Escalation
+  ☑ Path/Directory Traversal          ☑ Unauthorized Data Access
+  ☑ File Inclusion (LFI/RFI)          ☑ Unauthorized File Access
+  ☑ Open Redirect                     ☑ Unauthorized Actions
+  ☑ Missing Function-Level AC         ☑ Data Modification/Deletion
+  ☑ WebSocket Auth Bypass             ☑ Account Takeover
+  ☑ CSRF
+  ☑ CORS Misconfiguration
 
 ## A02:2025 - Security Misconfiguration
 - [x] Information Disclosure
