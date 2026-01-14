@@ -7,9 +7,9 @@
 - [x] URL Redirection
 - [x] File Inclusion (LFI/RFI)
 - [x] WebSocket Vulnerabilities
-- [ ] Forced Browsing 
-- [ ] Privilege Escalation
-- [ ] Missing Function Level Access Control
+- [x] Forced Browsing 
+- [x] Privilege Escalation
+- [x] Missing Function Level Access Control
 
 ## A02:2025 - Security Misconfiguration
 - [x] Information Disclosure
