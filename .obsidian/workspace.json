@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "4.CORS(Cross-origin resource sharing)"
             }
+          },
+          {
+            "id": "ca7168f07f05ca27",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -232,7 +244,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "41e6b89820cbe93c",
+  "active": "ca7168f07f05ca27",
   "lastOpenFiles": [
     "WebPt/Client Side/2.CSRF(Client side request Forgery).md",
     "xyz.md",
