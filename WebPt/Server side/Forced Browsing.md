@@ -1,4 +1,6 @@
-Accessing pages/resources that exist but aren't linked in the UI by directly entering URLs
+- Accessing pages/resources that exist but aren't linked in the UI by directly entering URLs
+
+- Forced Browsing is accessing restricted or hidden pages by guessing the URL directly, rather than clicking a link provided by the website.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
