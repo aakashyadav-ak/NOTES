@@ -234,10 +234,10 @@
   },
   "active": "ca7168f07f05ca27",
   "lastOpenFiles": [
-    "WebPt/Server side/Path Traversal or Directory Traversal.md",
-    "WebPt/Server side/2.Broken Access Control.md",
-    "WebPt/OWASP Top 10.md",
     "WebPt/Client Side/4.CORS(Cross-origin resource sharing).md",
+    "WebPt/Server side/2.Broken Access Control.md",
+    "WebPt/Server side/Path Traversal or Directory Traversal.md",
+    "WebPt/OWASP Top 10.md",
     "MPT/11.Android Partiton.md",
     "WebPt/Webpt.md",
     "WebPt/Client Side/2.CSRF(Client side request Forgery).md",
