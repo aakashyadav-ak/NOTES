@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/Server side/2.Broken Access Control.md",
+                "file": "WebPt/Server side/Forced Browsing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.Broken Access Control"
+              "title": "Forced Browsing"
             }
           }
         ]
@@ -219,10 +219,11 @@
   },
   "active": "ca7168f07f05ca27",
   "lastOpenFiles": [
+    "WebPt/Server side/Forced Browsing.md",
+    "WebPt/Server side/2.Broken Access Control.md",
     "MPT/11.Android Partiton.md",
     "MPT/Untitled.md",
     "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
-    "WebPt/Server side/2.Broken Access Control.md",
     "WebPt/Server side/6.SSRF.md",
     "WebPt/Server side/9.SQL Injection.md",
     "WebPt/Server side/10.File Upload Vulnerability.md",
@@ -246,7 +247,6 @@
     "WebPt/OWASP Top 10.md",
     "WebPt/Webpt.md",
     "xyz.md",
-    "MPT/OWASP MOBILE TOP 10 (2024).md",
     "MPT/Screenshot (46).png",
     "MPT/Screenshot (45).png",
     "MPT/mptnote.jpeg",
