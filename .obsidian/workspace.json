@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/Server side/2.Broken Access Control.md",
+                "file": "MPT/11.Android Partiton.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.Broken Access Control"
+              "title": "11.Android Partiton"
             }
           }
         ]
@@ -219,12 +219,13 @@
   },
   "active": "ca7168f07f05ca27",
   "lastOpenFiles": [
+    "MPT/8.Data Storage (Insecure Data Storage)(OWASP TOP 10.M9).md",
+    "WebPt/Server side/2.Broken Access Control.md",
     "WebPt/Server side/6.SSRF.md",
     "WebPt/Server side/9.SQL Injection.md",
     "WebPt/Server side/10.File Upload Vulnerability.md",
     "WebPt/Server side/8.JWT.md",
     "WebPt/Server side/7.Race Condition.md",
-    "WebPt/Server side/2.Broken Access Control.md",
     "WebPt/Client Side/2.CSRF(Client side request Forgery).md",
     "WebPt/Client Side/4.CORS(Cross-origin resource sharing).md",
     "WebPt/Client Side/Screenshot (40).png",
@@ -246,7 +247,6 @@
     "xyz.md",
     "MPT/OWASP MOBILE TOP 10 (2024).md",
     "MPT/10. Intent & WebView.md",
-    "WebPt/Server side/13.Bussiness Logics.md",
     "MPT/Screenshot (46).png",
     "MPT/Screenshot (45).png",
     "MPT/mptnote.jpeg",
