@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/Server side/Forced Browsing.md",
+                "file": "WebPt/Server side/1.Server Side.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Forced Browsing"
+              "title": "1.Server Side"
             }
           }
         ]
@@ -219,9 +219,9 @@
   },
   "active": "ca7168f07f05ca27",
   "lastOpenFiles": [
+    "WebPt/Server side/15.Forced Browsing.md",
     "WebPt/Server side/13.Bussiness Logics.md",
     "WebPt/Server side/1.Server Side.md",
-    "WebPt/Server side/Forced Browsing.md",
     "WebPt/Server side/2.Broken Access Control.md",
     "MPT/11.Android Partiton.md",
     "MPT/Untitled.md",
