@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/Server side/1.Server Side.md",
+                "file": "WebPt/Server side/2.Broken Access Control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.Server Side"
+              "title": "2.Broken Access Control"
             }
           }
         ],
@@ -234,6 +234,7 @@
   },
   "active": "ca7168f07f05ca27",
   "lastOpenFiles": [
+    "WebPt/Server side/1.Server Side.md",
     "MPT/1.MPT.md",
     "CCNA/Networking.md",
     "WebPt/Server side/2.Broken Access Control.md",
@@ -266,7 +267,6 @@
     "MPT/10.Intent.md",
     "Java Script",
     "Untitled.base",
-    "WebPt/Client Side/5.Web socket.md",
     "Untitled.canvas",
     "WebPt/Client Side/Screenshot (40).png",
     "WhatsApp Image 2025-12-27 at 8.39.24 PM.jpeg",
