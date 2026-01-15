@@ -29,3 +29,57 @@
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+#### Types of Forced Browsing
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      FORCED BROWSING TYPES                                  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   1. Admin/Management Pages                                                 │
+│      ├── /admin                                                             │
+│      ├── /administrator                                                     │
+│      ├── /manage                                                            │
+│      ├── /dashboard                                                         │
+│      └── /control-panel                                                     │
+│                                                                             │
+│   2. Backup & Configuration Files                                           │
+│      ├── /backup/                                                           │
+│      ├── /backup.zip                                                        │
+│      ├── /config.php.bak                                                    │
+│      ├── /database.sql                                                      │
+│      └── /.env                                                              │
+│                                                                             │
+│   3. Debug & Development Endpoints                                          │
+│      ├── /debug                                                             │
+│      ├── /test                                                              │
+│      ├── /phpinfo.php                                                       │
+│      ├── /console                                                           │
+│      └── /actuator (Spring Boot)                                            │
+│                                                                             │
+│   4. API Endpoints                                                          │
+│      ├── /api/v1/admin/users                                                │
+│      ├── /api/internal/config                                               │
+│      ├── /api/debug/logs                                                    │
+│      └── /swagger-ui.html                                                   │
+│                                                                             │
+│   5. Source Code & Version Control                                          │
+│      ├── /.git/                                                             │
+│      ├── /.svn/                                                             │
+│      ├── /.hg/                                                              │
+│      └── /src/                                                              │
+│                                                                             │
+│   6. Log Files                                                              │
+│      ├── /logs/                                                             │
+│      ├── /error.log                                                         │
+│      ├── /access.log                                                        │
+│      └── /debug.log                                                         │
+│                                                                             │
+│   7. Default Installation Files                                             │
+│      ├── /readme.txt                                                        │
+│      ├── /INSTALL.txt                                                       │
+│      ├── /CHANGELOG.md                                                      │
+│      └── /license.txt                                                       │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
