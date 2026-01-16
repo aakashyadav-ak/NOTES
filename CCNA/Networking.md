@@ -35,10 +35,10 @@ IPv4: A 32-bit address, typically represented in decimal format as 4 octets (e.g
 
 ##### IPv4 class
 
-
-class a= 1.0.0.0-126.255.255.255 (Number of Networks: 128 (0 to 127)
-      Network bits = 8, Host bits = 24
-            Number of hosts = 2^24−2=16,777,214 
-            Default mask: 255.0.0.0 (/8)
+1. **Class A**
+- class a= 1.0.0.0-126.255.255.255  (Number of Networks: 128 (0 to 127)
+- Network bits = 8, Host bits = 24
+- Number of hosts = 2^24−2=16,777,214 
+- Default mask: 255.0.0.0 (/8)
 
 
