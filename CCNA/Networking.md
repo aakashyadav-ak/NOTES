@@ -59,8 +59,7 @@ Binary:   11000000 . 10101000 . 00000001 . 00001010
 | **D** | 224 - 239         | Multicast           | -         | -                 |
 | **E** | 240 - 255         | Experimental        | -         | -                 |
 1. **Class A**
-
-- class a= 1.0.0.0-126.255.255.255  (Number of Networks: 126 (0 to 127)
+class a= 1.0.0.0-126.255.255.255  (Number of Networks: 126 (0 to 127)
 - Network bits = 8, Host bits = 24
 - Number of hosts = 2^24−2=16,777,214 
 - Default mask: 255.0.0.0 (/8)
@@ -73,7 +72,26 @@ Binary:   11000000 . 10101000 . 00000001 . 00001010
 
 
 2. **Class B**
-- class b= 128.0.0.0 - 191.255.255.255 (Number of Networks: 16,384)
+class b= 128.0.0.0 - 191.255.255.255 (Number of Networks: 16,384)
 - Network bits = 16, Host bits = 16
 - Number of hosts = 2^16−2=65,534
 - Default mask: 255.255.0.0 (/16)
+
+1 octet range= 128-191
+2 octet range= 0-255
+
+3. Class C
+
+class c= 192.0.0.0 – 223.255.255.255
+- Network bits = 24, Host bits = 8
+- Number of hosts = 2^8−2=254
+- Default mask: 255.255.255.0 (/8)
+
+1 octet range= 192-223
+2 octet range= 0-255
+3 octet range= 0-255.
+
+
+==Mostly IP Network belong to class c/192 because it has more no. of networks and less no of host== 
+==network=2097152==
+==host=256==
