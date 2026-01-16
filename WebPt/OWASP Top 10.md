@@ -3,7 +3,7 @@
 ## A01:2025 - Broken Access Control
 - [x] IDOR
 - [x] Forced Browsing
-- [x] Path/Directory Traversal
+- [ ] Path/Directory Traversal
 - [ ] File Inclusion (LFI/RFI)
 - [ ] Open Redirect
 - [ ] Missing Function-Level AC
@@ -53,13 +53,13 @@
 ## A06:2025 - Insecure Design
 - [ ] File Upload Vulnerabilities
 - [ ] Race Conditions
-- [x] Clickjacking
+- [ ] Clickjacking
 - [ ] Business Logic Flaws (practice more)
 - [ ] Missing Rate Limiting
 - [ ] Improper Input Validation
 
 ## A07:2025 - Authentication Failures
-- [x] JWT Attacks
+- [ ] JWT Attacks
 - [ ] Session Hijacking
 - [ ] Session Fixation
 - [ ] Brute Force (advanced)
