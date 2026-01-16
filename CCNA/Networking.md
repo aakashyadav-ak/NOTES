@@ -34,6 +34,10 @@ IPv4: A 32-bit address, typically represented in decimal format as 4 octets (e.g
  A host in IPv4 is any device assigned an IP address within a subnet, and the number of possible       hosts is determined by the host bits in the subnet mask: 2^host bits (24,16,8)-2.
 
 ##### IPv4 class
+
+- Number of hosts = 2^24−2=16,777,214 
+- Default mask: 255.0.0.0 (/8)
+
 class a= 1.0.0.0-126.255.255.255 (Number of Networks: 128 (0 to 127) 
 Network bits = 8, Host bits = 24
 
