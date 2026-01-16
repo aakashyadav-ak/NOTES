@@ -36,9 +36,20 @@ IPv4: A 32-bit address, typically represented in decimal format as 4 octets (e.g
 ##### IPv4 class
 
 1. **Class A**
+
 - class a= 1.0.0.0-126.255.255.255  (Number of Networks: 128 (0 to 127)
 - Network bits = 8, Host bits = 24
 - Number of hosts = 2^24−2=16,777,214 
 - Default mask: 255.0.0.0 (/8)
 
+1 octet range= 1-126.
+==0 and 127 are reserved. 0.x.x.x refers to the default route and 127.x.x.x is the special loopback range for localhost.==
 
+- ==1.0.0.0 & 1.2.0.0 both are same network==
+- ==10.0.0.0 & 11.0.0.0 both are different network.==
+
+
+2. class b= 128.0.0.0 - 191.255.255.255 (Number of Networks: 16,384)
+      Network bits = 16, Host bits = 16
+            Number of hosts = 2^16−2=65,534
+            Default mask: 255.255.0.0 (/16)
