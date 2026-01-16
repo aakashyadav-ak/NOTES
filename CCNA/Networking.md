@@ -51,10 +51,16 @@ Binary:   11000000 . 10101000 . 00000001 . 00001010
 
 ##### IPv4 class
 
-
+| Class | First Octet Range | Default Subnet Mask | Networks  | Hosts per Network |
+| :---- | :---------------- | :------------------ | :-------- | :---------------- |
+| **A** | 1 - 126           | 255.0.0.0 (/8)      | 126       | ~16 million       |
+| **B** | 128 - 191         | 255.255.0.0 (/16)   | 16,384    | ~65,000           |
+| **C** | 192 - 223         | 255.255.255.0 (/24) | 2 million | 254               |
+| **D** | 224 - 239         | Multicast           | -         | -                 |
+| **E** | 240 - 255         | Experimental        | -         | -                 |
 1. **Class A**
 
-- class a= 1.0.0.0-126.255.255.255  (Number of Networks: 128 (0 to 127)
+- class a= 1.0.0.0-126.255.255.255  (Number of Networks: 126 (0 to 127)
 - Network bits = 8, Host bits = 24
 - Number of hosts = 2^24−2=16,777,214 
 - Default mask: 255.0.0.0 (/8)
