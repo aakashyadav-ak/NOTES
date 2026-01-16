@@ -274,3 +274,8 @@ CIDR Notation: /24 (count the 1s)
 ████ = Network bits (1s)
 ░░░░ = Host bits (0s)
 ```
+/8= 8 bit
+1bit = 
+
+**CIDR Notation: A Simplified Approach to Subnetting**
+Instead of using a long subnet mask (e.g., 255.255.255.0), CIDR uses a simple format like /24. The number after the slash (/n) represents the number of bits used for the network portion of the IP address.
