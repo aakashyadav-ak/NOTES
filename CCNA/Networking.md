@@ -142,6 +142,8 @@ Think of it like room numbers inside your house — used only internally.
 There are three specific blocks of IP addresses reserved for private use. If you see an IP address starting with these numbers, you know you are on a private network.
 
 
+**RFC 1918 defines 3 private network ranges:**
+
 ### MAC Address
 
 **Media Access Control Address/Physical Address**:
