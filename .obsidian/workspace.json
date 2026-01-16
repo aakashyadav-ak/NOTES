@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/Server side/2.Broken Access Control.md",
+                "file": "CCNA/Networking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.Broken Access Control"
+              "title": "Networking"
             }
           }
         ]
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebPt/CORS(Cross-origin resource sharing).md",
+                "file": "CCNA/Networking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CORS(Cross-origin resource sharing)"
+              "title": "Outline of Networking"
             }
           },
           {
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -219,9 +219,9 @@
   },
   "active": "ca7168f07f05ca27",
   "lastOpenFiles": [
+    "WebPt/Server side/2.Broken Access Control.md",
     "WebPt/Server side/Path Traversal or Directory Traversa (server side).md",
     "WebPt/Server side/15.Forced Browsing (server side).md",
-    "WebPt/Server side/2.Broken Access Control.md",
     "WebPt/Server side/9.SQL Injection.md",
     "WebPt/OWASP Top 10.md",
     "WebPt/Webpt.md",
