@@ -503,3 +503,31 @@ Let's calculate Octet 3:
 
 /23 Subnet Mask = 255.255.254.0
 ```
+
+**Real-World Use Case for /23**
+```
+Company: Medium-Sized Business
+Requirement: 400 employees + servers + printers + network devices ≈ 450 devices
+
+Option 1: Two /24 networks (complex routing)
+Option 2: One /23 network (510 hosts) ✓ BETTER!
+
+Network Design:
+┌─────────────────────────────────────────────────────────────────┐
+│                     10.1.0.0/23                                 │
+├─────────────────────────────────────────────────────────────────┤
+│  10.1.0.1         → Default Gateway (Router)                   │
+│  10.1.0.2 - .10   → Servers                                    │
+│  10.1.0.11 - .20  → Network Printers                           │
+│  10.1.0.21 - .50  → IT Department                              │
+│  10.1.0.51 - .150 → Floor 1 Workstations                       │
+│  10.1.0.151 - .254│ → Floor 2 Workstations                     │
+│  10.1.1.1 - .150  → Floor 3 Workstations                       │
+│  10.1.1.151 - .254│ → Reserved for Growth                      │
+├─────────────────────────────────────────────────────────────────┤
+│  10.1.0.0         → Network Address (Cannot use)               │
+│  10.1.1.255       → Broadcast Address (Cannot use)             │
+└─────────────────────────────────────────────────────────────────┘
+
+Spans: 10.1.0.x AND 10.1.1.x (two /24 ranges combined!)
+```
