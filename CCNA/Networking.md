@@ -206,3 +206,71 @@ it manages allocation of MAC addresses known as MAC-48 & now called EUI-48 ident
 Standards
 
 ## Subnet:
+- A subnet (subnetwork) is a smaller network created from a larger network by dividing it into logical segments.
+- A subnet is like a smaller group within a large network. It is a way to split a large network into smaller networks so that devices present in one network can transmit data more easily.
+
+### Subnetting
+Subnetting is the process of dividing a large network into smaller networks called "subnets." Subnets provide each group of devices with their own space to communicate, which ultimately helps the network to work easily. This also boosts security and makes it easier to manage the network, as each subnet can be monitored and controlled separately. 
+
+![[Image.png]]
+
+![[Image (1).png]]
+
+### Subnet mask
+A subnet mask is a 32-bit number that separates the IP address into:
+- Network Portion - Identifies the network
+- Host Portion - Identifies the device
+
+A Subnet Mask is a 32-bit number used in IP addressing to separate the network portion of an IP address from the host portion. It helps computers and devices determine which part of an IP address refers to the network they are present, and which part refers to their specific location or address within that network.
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                      IP Address                             │
+│                    192.168.1.100                            │
+├─────────────────────────────────────────────────────────────┤
+│                     Subnet Mask                             │
+│                    255.255.255.0                            │
+├─────────────────────────┬───────────────────────────────────┤
+│     NETWORK PORTION     │         HOST PORTION              │
+│       192.168.1         │            .100                   │
+│    (Which network?)     │       (Which device?)             │
+└─────────────────────────┴───────────────────────────────────┘
+```
+
+```
+Subnet Mask Rules:
+┌──────────────────────────────────────────────────────────┐
+│  • 1s (ones) = Network bits    → MUST match exactly      │
+│  • 0s (zeros) = Host bits      → Can vary (device IDs)   │
+│  • 1s are always CONTINUOUS (left side)                  │
+│  • 0s are always CONTINUOUS (right side)                 │
+└──────────────────────────────────────────────────────────┘
+```
+
+Example: 255.255.255.0
+```
+Decimal:    255    .    255    .    255    .     0
+Binary:   11111111 . 11111111 . 11111111 . 00000000
+          |________Network (24 bits)____| |_Host(8)_|
+          
+CIDR Notation: /24 (count the 1s)
+```
+
+#### **Default Subnet Masks:**
+```
+┌─────────┬──────────────────┬─────────────────────────────────────────┐
+│  Class  │  Default Mask    │              Binary                     │
+├─────────┼──────────────────┼─────────────────────────────────────────┤
+│    A    │  255.0.0.0       │  11111111.00000000.00000000.00000000    │
+│         │  /8              │  ████████ ░░░░░░░░ ░░░░░░░░ ░░░░░░░░   │
+├─────────┼──────────────────┼─────────────────────────────────────────┤
+│    B    │  255.255.0.0     │  11111111.11111111.00000000.00000000    │
+│         │  /16             │  ████████ ████████ ░░░░░░░░ ░░░░░░░░   │
+├─────────┼──────────────────┼─────────────────────────────────────────┤
+│    C    │  255.255.255.0   │  11111111.11111111.11111111.00000000    │
+│         │  /24             │  ████████ ████████ ████████ ░░░░░░░░   │
+└─────────┴──────────────────┴─────────────────────────────────────────┘
+
+████ = Network bits (1s)
+░░░░ = Host bits (0s)
+```
