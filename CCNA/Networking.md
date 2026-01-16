@@ -35,6 +35,12 @@ IPv4: A 32-bit address, typically represented in decimal format as 4 octets (e.g
 Each octet = 8 bits = 1 byte
 Total = 32 bits
 ```
+
+```
+Decimal:    192    .   168    .    1     .    10
+Binary:   11000000 . 10101000 . 00000001 . 00001010
+```
+
 (One Octate is from 0-255)
 
 - It has Unicast, Multicast and Broadcast style of address.
