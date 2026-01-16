@@ -25,13 +25,13 @@
 
 ### IP Addressing
 - [x] IPv4 addressing
-- [ ] IPv6 basics
+- [x] IPv6 basics
 - [x] Public vs Private IPs
-- [ ] Subnetting (CIDR notation)
-- [ ] Calculate network/host portions
-- [ ] Subnet masks
-- [ ] NAT (Network Address Translation)
-- [ ] DHCP working
+- [x] Subnetting (CIDR notation)
+- [x] Calculate network/host portions
+- [x] Subnet masks
+- [x] NAT (Network Address Translation)
+- [x] DHCP working
 
 ### Common Protocols
 - [ ] HTTP/HTTPS (Port 80/443)

@@ -2,19 +2,19 @@
 
 ## A01:2025 - Broken Access Control
 - [x] IDOR
-- [ ] Forced Browsing
+- [x] Forced Browsing
 - [x] Path/Directory Traversal
 - [ ] File Inclusion (LFI/RFI)
 - [ ] Open Redirect
 - [ ] Missing Function-Level AC
 - [ ] WebSocket Auth Bypass
-- [x] CSRF
-- [x] CORS Misconfiguration
+- [ ] CSRF
+- [ ] CORS Misconfiguration
 
 ## A02:2025 - Security Misconfiguration
-- [x] Information Disclosure
-- [x] Host Header Attacks
-- [x] CORS Misconfiguration
+- [ ] Information Disclosure
+- [ ] Host Header Attacks
+- [ ] CORS Misconfiguration
 - [ ] Default Credentials
 - [ ] Directory Listing
 - [ ] Unnecessary Features Enabled
@@ -29,7 +29,7 @@
 - [ ] Unsigned Components
 
 ## A04:2025 - Cryptographic Failures
-- [x] JWT Attacks (partial)
+- [ ] JWT Attacks (partial)
 - [ ] Weak Encryption
 - [ ] Sensitive Data Exposure
 - [ ] TLS/SSL Vulnerabilities
@@ -38,21 +38,21 @@
 - [ ] Improper Key Management
 
 ## A05:2025 - Injection
-- [x] SQL Injection
-- [x] OS Command Injection
-- [x] XSS (DOM, Reflected, Stored)
-- [x] XXE
-- [x] LFI/RFI
-- [x] SSRF (Basic, Blind, to RCE, Cloud Metadata)
-- [x] Web LLM Attacks (Prompt Injection)
+- [ ] SQL Injection
+- [ ] OS Command Injection
+- [ ] XSS (DOM, Reflected, Stored)
+- [ ] XXE
+- [ ] LFI/RFI
+- [ ] SSRF (Basic, Blind, to RCE, Cloud Metadata)
+- [ ] Web LLM Attacks (Prompt Injection)
 - [ ] NoSQL Injection
 - [ ] SSTI (Server-Side Template Injection)
 - [ ] LDAP Injection
 - [ ] Header Injection
 
 ## A06:2025 - Insecure Design
-- [x] File Upload Vulnerabilities
-- [x] Race Conditions
+- [ ] File Upload Vulnerabilities
+- [ ] Race Conditions
 - [x] Clickjacking
 - [ ] Business Logic Flaws (practice more)
 - [ ] Missing Rate Limiting
