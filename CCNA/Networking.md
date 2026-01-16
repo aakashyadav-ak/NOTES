@@ -51,6 +51,7 @@ Binary:   11000000 . 10101000 . 00000001 . 00001010
 
 ##### IPv4 class
 
+
 1. **Class A**
 
 - class a= 1.0.0.0-126.255.255.255  (Number of Networks: 128 (0 to 127)
