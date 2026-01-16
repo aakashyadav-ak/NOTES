@@ -24,9 +24,9 @@
 - [ ] TCP flags (SYN, ACK, FIN, RST, PSH, URG)
 
 ### IP Addressing
-- [ ] IPv4 addressing
+- [x] IPv4 addressing
 - [ ] IPv6 basics
-- [ ] Public vs Private IPs
+- [x] Public vs Private IPs
 - [ ] Subnetting (CIDR notation)
 - [ ] Calculate network/host portions
 - [ ] Subnet masks
