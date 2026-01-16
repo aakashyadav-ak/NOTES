@@ -137,7 +137,7 @@ Path Traversal usually happens when parameters are used to handle files. Some co
 - Backup downloads
 
 
-## 🚨 Why parameters matter
+##  Why parameters matter
 
 - If user input (parameter values) is placed directly into file paths without validation, attackers can insert `../` sequences. 
 - This lets them escape the intended folder and read sensitive files.
