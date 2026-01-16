@@ -25,6 +25,16 @@ ex=servers, network printers
 
 IPv4: A 32-bit address, typically represented in decimal format as 4 octets (e.g., 192.168.1.1). It allows for approximately 4.3 billion unique addresses.
 
+```
+         Dotted Decimal Notation
+         
+          192 . 168 .  1  .  10
+           |     |     |     |
+        Octet  Octet Octet Octet
+        
+Each octet = 8 bits = 1 byte
+Total = 32 bits
+```
 (One Octate is from 0-255)
 
 - It has Unicast, Multicast and Broadcast style of address.
