@@ -289,3 +289,42 @@ means 2^24=16,777,216-2 are no. of host of class a IP.
 
 **CIDR Notation: A Simplified Approach to Subnetting**
 Instead of using a long subnet mask (e.g., 255.255.255.0), CIDR uses a simple format like /24. The number after the slash (/n) represents the number of bits used for the network portion of the IP address.
+
+#### example: /27 Subnetting
+
+```
+/27 = 27 network bits + 5 host bits = 32 total bits
+
+┌─────────────────────────────────────────────────────────────────┐
+│                         32 bits total                           │
+├───────────────────────────────────────────────┬─────────────────┤
+│              27 bits (Network)                │  5 bits (Host)  │
+│              NNNNNNNN.NNNNNNNN.NNNNNNNN.NNN   │      HHHHH      │
+└───────────────────────────────────────────────┴─────────────────┘
+```
+ **Binary Coversion**
+```
+ /27 Subnet Mask in Binary:
+
+11111111 . 11111111 . 11111111 . 11100000
+├──────────────────────────────────┤├────┤
+         27 ones (Network)         5 zeros
+                                   (Host)
+
+Converting to Decimal:
+
+Octet 1: 11111111 = 255
+Octet 2: 11111111 = 255
+Octet 3: 11111111 = 255
+Octet 4: 11100000 = ?
+
+Let's calculate Octet 4:
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐
+│ 128 │  64 │  32 │  16 │  8  │  4  │  2  │  1  │
+├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
+│  1  │  1  │  1  │  0  │  0  │  0  │  0  │  0  │
+└─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
+       128 + 64 + 32 = 224
+
+/27 Subnet Mask = 255.255.255.224
+```
