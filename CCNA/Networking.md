@@ -113,6 +113,29 @@ It’s a department of ICANN (the Internet Corporation for Assigned Names and Nu
 - IP addresses: coordinates global IPv4 and IPv6 address space.  
 - Protocol numbers & ports: e.g., TCP port 80 = HTTP, UDP port 53 = DNS.
 
+
+##### Reserved IP address
+- 0.0.0.0 - default route (everywhere).
+- 255.255.255.255 - default broadcast
+- 127.0.0.0 - 127.255.255.255 - local host/loopback address (used for troubleshooting)/(NIC card testing)
+- 169.254.0.0 - 169.254.255.255 (APIPA Range) when DHCP fails to provide IP to a device.
+
+
+##### Public IP address
+
+- Used on the Internet — can be reached globally.  
+- Assigned by ISPs (Internet Service Providers).  
+- Must be unique across the whole Internet.  
+Think of it like your home address — anyone in the world can send data to it.
+
+
+Private IP address(Router/switch private IP address)
+
+Used inside local networks (like home, office, or lab).  
+Cannot be routed on the Internet.  
+Used to identify devices within your LAN (Local Area Network).  
+Think of it like room numbers inside your house — used only internally.
+
 ### MAC Address
 
 **Media Access Control Address/Physical Address**:
