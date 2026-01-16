@@ -3,7 +3,7 @@
 ## A01:2025 - Broken Access Control
 - [x] IDOR
 - [x] Forced Browsing
-- [ ] Path/Directory Traversal
+- [x] Path/Directory Traversal
 - [ ] File Inclusion (LFI/RFI)
 - [ ] Open Redirect
 - [ ] Missing Function-Level AC
