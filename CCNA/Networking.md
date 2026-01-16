@@ -69,7 +69,7 @@ class a= 1.0.0.0-126.255.255.255  (Number of Networks: 126 (0 to 127)
 
 - ==1.0.0.0 & 1.2.0.0 both are same network==
 - ==10.0.0.0 & 11.0.0.0 both are different network.==
-
+Every 126 Network (ip) has 16,777,214
 
 2. **Class B**
 class b= 128.0.0.0 - 191.255.255.255 (Number of Networks: 16,384)
@@ -276,7 +276,7 @@ CIDR Notation: /24 (count the 1s)
 ```
 
 255.0.0.0/8 (where /8=Network bit and other 8x8x8=24 are host bits)
-means 2^24=16,777,214 -2 are no. of host of class a
+means 2^24=16,777,216-2 are no. of host of class a IP.
 
 
 |   Octet 1   |  Octet 2   |  Octet 3   |  Octet 4   |
