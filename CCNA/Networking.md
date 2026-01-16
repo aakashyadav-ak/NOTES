@@ -72,7 +72,8 @@ Binary:   11000000 . 10101000 . 00000001 . 00001010
 - ==10.0.0.0 & 11.0.0.0 both are different network.==
 
 
-2. class b= 128.0.0.0 - 191.255.255.255 (Number of Networks: 16,384)
-      Network bits = 16, Host bits = 16
-            Number of hosts = 2^16−2=65,534
-            Default mask: 255.255.0.0 (/16)
+2. **Class B**
+- class b= 128.0.0.0 - 191.255.255.255 (Number of Networks: 16,384)
+- Network bits = 16, Host bits = 16
+- Number of hosts = 2^16−2=65,534
+- Default mask: 255.255.0.0 (/16)
