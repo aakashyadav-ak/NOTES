@@ -95,3 +95,42 @@ class c= 192.0.0.0 – 223.255.255.255
 ==Mostly IP Network belong to class c/192 because it has more no. of networks and less no of host== 
 ==network=2097152==
 ==host=256==
+
+
+5. **class d**=   224.0.0.0 – 239.255.255.255 (Multicast, no hosts)
+6. **class e**=   240.0.0.0 – 255.255.255.255 (Experimental, no hosts)
+
+#### IPv6:
+**IPv6:** A 128-bit address, represented in hexadecimal format (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334). 
+It was developed to address the limitations of IPv4 and allows for a vastly larger number of unique addresses.
+
+
+**IANA** = Internet Assigned Numbers Authority
+
+It’s a department of ICANN (the Internet Corporation for Assigned Names and Numbers).
+
+**IANA manages:**
+- IP addresses: coordinates global IPv4 and IPv6 address space.  
+- Protocol numbers & ports: e.g., TCP port 80 = HTTP, UDP port 53 = DNS.
+
+### MAC Address
+
+**Media Access Control Address/Physical Address**:
+A globally unique 48 bit hardware no. of a hardware device embedded into a network card known as NIC, during the time of manufacturing.
+
+
+ex=00:1A:2B:3C:4D:5E(hexadecimal format)
+
+- First 24 bits (first 3 bytes) → OUI (Organizationally Unique Identifier), identifies the manufacturer.  
+- Last 24 bits (last 3 bytes) → device-specific part (unique per NIC).
+
+
+**IEEE** 
+- IEEE = Institute of Electrical and Electronics Engineers.  
+- It’s the body that sets many networking standards (Ethernet = IEEE 802.3, Wi-Fi = IEEE 802.11). 
+- For MAC addresses, IEEE manages the OUI (Organizationally Unique Identifier) space.
+- 
+it manages allocation of MAC addresses known as MAC-48 & now called EUI-48 identifiers.
+Standards
+
+## Subnet:
