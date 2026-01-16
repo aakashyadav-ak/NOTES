@@ -129,12 +129,18 @@ It’s a department of ICANN (the Internet Corporation for Assigned Names and Nu
 Think of it like your home address — anyone in the world can send data to it.
 
 
-Private IP address(Router/switch private IP address)
+#### Private IP address(Router/switch private IP address)
 
-Used inside local networks (like home, office, or lab).  
-Cannot be routed on the Internet.  
-Used to identify devices within your LAN (Local Area Network).  
+- Used inside local networks (like home, office, or lab).  
+- Cannot be routed on the Internet.  
+- Used to identify devices within your LAN (Local Area Network).  
 Think of it like room numbers inside your house — used only internally.
+
+
+##### The Official Private IP Ranges (RFC 1918):
+
+There are three specific blocks of IP addresses reserved for private use. If you see an IP address starting with these numbers, you know you are on a private network.
+
 
 ### MAC Address
 
