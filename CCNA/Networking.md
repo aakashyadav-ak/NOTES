@@ -328,3 +328,40 @@ Let's calculate Octet 4:
 
 /27 Subnet Mask = 255.255.255.224
 ```
+
+**Given: 192.168.1.100/27 - Find all details**
+```
+Step 1: Identify Block Size
+        /27 → 256 - 224 = 32
+
+Step 2: Find Network Address
+        List multiples of 32: 0, 32, 64, 96, 128...
+        100 falls between 96 and 128
+        Network Address = 192.168.1.96
+
+Step 3: Find Broadcast Address
+        Next Network - 1 = 128 - 1 = 127
+        Broadcast = 192.168.1.127
+
+Step 4: Find Usable Range
+        First Host = 192.168.1.97  (Network + 1)
+        Last Host = 192.168.1.126  (Broadcast - 1)
+
+Step 5: Count Usable Hosts
+        Usable = 30 hosts
+```
+
+Answer:
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  Given IP:         192.168.1.100/27                             │
+├─────────────────────────────────────────────────────────────────┤
+│  Subnet Mask:      255.255.255.224                              │
+│  Network Address:  192.168.1.96                                 │
+│  First Host:       192.168.1.97                                 │
+│  Last Host:        192.168.1.126                                │
+│  Broadcast:        192.168.1.127                                │
+│  Usable Hosts:     30                                           │
+│  Next Network:     192.168.1.128                                │
+└─────────────────────────────────────────────────────────────────┘
+```
