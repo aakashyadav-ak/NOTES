@@ -161,6 +161,30 @@ There are three specific blocks of IP addresses reserved for private use. If you
 - Class B - 16 Network
 - Class c - 256 Network.
 
+**Need Of Private IP:**
+```
+IPv4 has only ~4.3 billion addresses (2^32)
+World population: 8+ billion
+Devices per person: Multiple!
+
+Result: Not enough public IPs for everyone!
+```
+
+**Solution:**
+```
+                    ┌─────────────────┐
+  Private Network   │     Router      │     Internet
+                    │      with       │
+  192.168.1.10 ────►│      NAT        │────► 203.0.113.5
+  192.168.1.11 ────►│                 │      (Public IP)
+  192.168.1.12 ────►│  Translates     │
+                    │  Private→Public │
+                    └─────────────────┘
+
+• Thousands of devices share ONE public IP
+• Private IPs are FREE and REUSABLE
+• Not routable on the Internet
+```
 ### MAC Address
 
 **Media Access Control Address/Physical Address**:
