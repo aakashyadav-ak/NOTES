@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebPt/OWASP Top 10.md",
+                "file": "CCNA/Networking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OWASP Top 10"
+              "title": "Networking"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "49bcacfdaf1344ae",
@@ -165,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebPt/OWASP Top 10.md",
+                "file": "CCNA/Networking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OWASP Top 10"
+              "title": "Outline of Networking"
             }
           },
           {
@@ -203,7 +204,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,13 +219,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfba4d5771fc2184",
+  "active": "ca7168f07f05ca27",
   "lastOpenFiles": [
+    "WebPt/OWASP Top 10.md",
     "VAPT  CHECKLIST.md",
     "WebPt/Server side/2.Broken Access Control.md",
     "WebPt/Server side/3.OS Command Injection.md",
     "WebPt/Client Side/4.CORS(Cross-origin resource sharing).md",
-    "WebPt/OWASP Top 10.md",
     "WebPt/Server side/13.Bussiness Logics.md",
     "CCNA/Networking.md",
     "WebPt/Server side/Path Traversal or Directory Traversa (server side).md",

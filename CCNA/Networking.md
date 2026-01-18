@@ -531,3 +531,35 @@ Network Design:
 
 Spans: 10.1.0.x AND 10.1.1.x (two /24 ranges combined!)
 ```
+
+| Step | Description | CLASS A: 10.45.130.200/12 | CLASS B: 172.20.130.200/20 | CLASS C: 192.168.130.200/28 |
+|------|-------------|---------------------------|----------------------------|------------------------------|
+| **GIVEN** | IP Address | 10.45.130.200 | 172.20.130.200 | 192.168.130.200 |
+| **GIVEN** | CIDR | /12 | /20 | /28 |
+| **1** | **Identify Class** | First octet = 10 (1-126) = Class A | First octet = 172 (128-191) = Class B | First octet = 192 (192-223) = Class C |
+| **2** | **Default CIDR** | Class A default = /8 | Class B default = /16 | Class C default = /24 |
+| **3** | **Borrowed Bits** | 12 - 8 = 4 bits borrowed | 20 - 16 = 4 bits borrowed | 28 - 24 = 4 bits borrowed |
+| **4** | **Host Bits** | 32 - 12 = 20 host bits | 32 - 20 = 12 host bits | 32 - 28 = 4 host bits |
+| **5** | **Interesting Octet** | /12 falls in /9-/16 range = 2nd Octet | /20 falls in /17-/24 range = 3rd Octet | /28 falls in /25-/32 range = 4th Octet |
+| **6** | **Subnet Mask Binary** | 11111111.11110000.00000000.00000000 | 11111111.11111111.11110000.00000000 | 11111111.11111111.11111111.11110000 |
+| **7** | **Interesting Octet Binary** | 11110000 (2nd octet) | 11110000 (3rd octet) | 11110000 (4th octet) |
+| **8** | **Convert Binary to Decimal** | 128+64+32+16 = 240 | 128+64+32+16 = 240 | 128+64+32+16 = 240 |
+| **9** | **Subnet Mask Decimal** | 255.240.0.0 | 255.255.240.0 | 255.255.255.240 |
+| **10** | **Block Size Formula** | 256 - 240 = 16 | 256 - 240 = 16 | 256 - 240 = 16 |
+| **11** | **Block Size Applies To** | 2nd Octet | 3rd Octet | 4th Octet |
+| **12** | **List Multiples of Block** | 0, 16, 32, 48, 64... | 0, 16, 32, 48, 64, 80, 96, 112, 128, 144... | 0, 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208... |
+| **13** | **Value in Interesting Octet** | 45 (2nd octet of IP) | 130 (3rd octet of IP) | 200 (4th octet of IP) |
+| **14** | **Find Range** | 45 is between 32 and 48 | 130 is between 128 and 144 | 200 is between 192 and 208 |
+| **15** | **Network Address** | 10.32.0.0 | 172.20.128.0 | 192.168.130.192 |
+| **16** | **Next Network** | 10.48.0.0 | 172.20.144.0 | 192.168.130.208 |
+| **17** | **Broadcast Calculation** | 10.48.0.0 - 1 = 10.47.255.255 | 172.20.144.0 - 1 = 172.20.143.255 | 192.168.130.208 - 1 = 192.168.130.207 |
+| **18** | **Broadcast Address** | 10.47.255.255 | 172.20.143.255 | 192.168.130.207 |
+| **19** | **First Host Calculation** | 10.32.0.0 + 1 | 172.20.128.0 + 1 | 192.168.130.192 + 1 |
+| **20** | **First Usable Host** | 10.32.0.1 | 172.20.128.1 | 192.168.130.193 |
+| **21** | **Last Host Calculation** | 10.47.255.255 - 1 | 172.20.143.255 - 1 | 192.168.130.207 - 1 |
+| **22** | **Last Usable Host** | 10.47.255.254 | 172.20.143.254 | 192.168.130.206 |
+| **23** | **Usable Hosts Formula** | 2^20 - 2 | 2^12 - 2 | 2^4 - 2 |
+| **24** | **Usable Hosts Calculation** | 1,048,576 - 2 = 1,048,574 | 4,096 - 2 = 4,094 | 16 - 2 = 14 |
+| **25** | **Total Usable Hosts** | 1,048,574 | 4,094 | 14 |
+| **26** | **Number of Subnets** | 2^4 = 16 subnets | 2^4 = 16 subnets | 2^4 = 16 subnets |
+| **27** | **Usable IP Range** | 10.32.0.1 - 10.47.255.254 | 172.20.128.1 - 172.20.143.254 | 192.168.130.193 - 192.168.130.206 |
