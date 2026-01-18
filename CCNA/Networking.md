@@ -287,7 +287,7 @@ means 2^24=16,777,216-2 are no. of host of class a IP.
 |   **255**   |   **0**    |   **0**    |   **0**    |
 
 
-**CIDR Notation: A Simplified Approach to Subnetting**
+**CIDR Notation:(Classless Inter Domain Routing) A Simplified Approach to Subnetting**
 Instead of using a long subnet mask (e.g., 255.255.255.0), CIDR uses a simple format like /24. The number after the slash (/n) represents the number of bits used for the network portion of the IP address.
 
 #### example: /27 Subnetting
