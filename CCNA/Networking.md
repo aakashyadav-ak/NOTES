@@ -565,16 +565,17 @@ Spans: 10.1.0.x AND 10.1.1.x (two /24 ranges combined!)
 | **27**    | **Usable IP Range**            | 10.32.0.1 - 10.47.255.254             | 172.20.128.1 - 172.20.143.254               | 192.168.130.193 - 192.168.130.206                               |
 
 
-## Subnetting 192.168.5.0/22 for Variable Host Requirements
+## Subnetting 192.168.4.0/22 for Variable Host Requirements
+
 
 **Step 1: Analyze the Original Network**
 ```
-Network: 192.168.5.0/22
-Binary Network: 11000000.10101000.000001|01.00000000
-                                        ↑
-                                   /22 boundary
+Network: 192.168.4.0/22
 
-Total Host Bits: 32 - 22 = 10 bits
-Total Usable Hosts: 2^10 - 2 = 1,022 hosts
-Address Range: 192.168.4.0 - 192.168.7.255
+IP Address:     192    . 168    . 4      . 0
+Binary:         11000000.10101000.00000100.00000000
+                ├────────── 22 bits ─────────┤├─10─┤
+                     Network Portion          Host
+
+Subnet Mask: 255.255.252.0
 ```
